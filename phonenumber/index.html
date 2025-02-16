@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="phone number vaildator" />
+    <title>phone number vaildator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>phone number vaildator</h1>
+    <p>check if a number is an american phone number</p>
+    <fieldset id="phone-outer">
+      <div id="camera">
+        <div id="camera-inner"></div>
+      </div>
+      <div id="phone-inner">
+        <div id="history">
+          <div id="history-child">
+            <p id="phone-number">555-555-5555</p>
+            <p id="is-vaild">it's valid</p>
+          </div>
+          <div id="history-child">
+            <p id="phone-number">555-555-5555</p>
+            <p id="is-vaild">it's valid</p>
+          </div>
+          <div id="history-child">
+            <p id="phone-number">555-555-5555</p>
+            <p id="is-vaild">it's valid</p>
+          </div>
+          <div id="history-child">
+            <p id="phone-number">555-555-5555</p>
+            <p id="is-vaild">it's valid</p>
+          </div>
+        </div>
+        <input id="input" />
+        <div id="dial">
+            <button id="1">1</button>
+            <button id="2">2</button>
+            <button id="3">3</button>
+            <button id="4">4</button>
+            <button id="5">5</button>
+            <button id="6">6</button>
+            <button id="7">7</button>
+            <button id="8">8</button>
+            <button id="9">9</button>
+            <button id="*">*</button>
+            <button id="0">0</button>
+            <button id="#">#</button>
+        </div>
+        <div id="buttons-div">
+            <button id="clear-btn">clear history</button>
+            <button id="check-btn">check number</button>
+        </div> 
+        <div id="signs-div">
+          <svg id="tabs-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+             <line x1="10" y1="20" x2="90" y2="20" stroke="white" stroke-width="8" stroke-linecap="round" />
+             <line x1="10" y1="50" x2="90" y2="50" stroke="white" stroke-width="8" stroke-linecap="round" />
+             <line x1="10" y1="80" x2="90" y2="80" stroke="white" stroke-width="8" stroke-linecap="round" />
+          </svg>
+          <svg id="home-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="45" fill="transparent" stroke="white" stroke-width="5" />
+          </svg>
+          <svg id="back-button" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="60 20 30 50 60 80 65 75 40 50 65 25" fill="white" />
+          </svg>
+        </div>
+      </div>
+    </fieldset>
+    <script src="script.js"></script>
+  </body>
+  </html>

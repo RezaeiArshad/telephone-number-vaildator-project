@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#green {
+    color: green;
+}
+
+#red {
+    color: red;
+}
+
+#phone-outer {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    padding: none;
+}
+
+#camera {
+    background-color: gray;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+
+#camera-inner {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#phone-inner {
+    background-color: rgb(24, 24, 24);
+    margin: auto;
+    width: 400px;
+    height: 565px;
+    border-radius: 30px;
+    padding-top: 5px;
+}
+
+#history {
+    width: 390px;
+    height: 200px;
+    background-color: black;
+    margin: 0px auto 5px auto;
+    border-radius: 30px;
+    color: beige;
+    scrollbar-width: 10px;
+    overflow-y: auto;
+}
+
+#history::-webkit-scrollbar {
+    width: 10px;
+    margin-right: -2px;
+}
+
+#history::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+#history::-webkit-scrollbar-thumb {
+    background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+#history.hover-effect::-webkit-scrollbar-thumb {
+    background-color: rgb(46, 46, 46);
+    transform: scale(1.05);
+}
+
+#history-child {
+    box-shadow: 0 0 0px 1px gray;
+    width: 95%;
+    height: 35px;
+    margin: 10px auto 5px auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#history-child p {
+   font-family: tahoma;
+   font-size: 20px;
+}
+
+#input {
+    margin: 0;
+    width: 70%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
+
+#dial {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(4 , 1fr);
+    row-gap: 10px;
+    column-gap: 8px;
+    width: 90%;
+    margin: 10px auto 10px auto;
+}
+
+#dial button {
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    background-color: rgb(33, 33, 33);
+    margin: auto;
+    border-radius: 20px;
+    border: none;
+    color: beige;
+    transition: all 0.2s ease;
+}
+
+#dial button:hover {
+    transform: scale(1.1);
+    background-color: rgb(44, 44, 44);
+}
+
+#buttons-div {
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#buttons-div button {
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+}
+
+#clear-btn {
+    background-color: red;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 1px red;
+    transition: all 0.2s ease;
+}
+
+#clear-btn:hover {
+    transform: scale(1.1);
+}
+
+#check-btn {
+    background-color: rgb(0, 190, 0);
+    color: white;
+    box-shadow: 0 0 10px 1px rgb(0, 190, 0);
+    transition: all 0.2s ease;
+}
+
+#check-btn:hover {
+    transform: scale(1.1)
+}
+
+#signs-div {
+    width: 100%;
+    height: 25px;
+    margin-top: 6px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#signs-div svg {
+    color:wheat;
+    width: 20px;
+    height: 20px;
+    transition: all 0.2s ease;
+}
+
+#signs-div svg:hover {
+   transform: scale(1.1);
+}
