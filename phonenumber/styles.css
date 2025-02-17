@@ -5,11 +5,11 @@ body {
     text-align: center;
 }
 
-#green {
-    color: green;
+.green {
+    color: limegreen;
 }
 
-#red {
+.red {
     color: red;
 }
 
@@ -57,7 +57,6 @@ body {
     background-color: black;
     margin: 0px auto 5px auto;
     border-radius: 30px;
-    color: beige;
     scrollbar-width: 10px;
     overflow-y: auto;
 }
@@ -91,6 +90,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    color: beige;
+}
+
+.history-child:hover {
+    cursor: pointer;
 }
 
 .history-child p {
@@ -98,7 +102,7 @@ body {
    font-size: 20px;
 }
 
-#output {
+#results-div {
     height: 50px;
     width: 90%;
     margin: 0 auto 10px auto;
@@ -108,9 +112,16 @@ body {
     box-sizing: border-box;
     padding: 10px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
 }
 
-#input {
+#user-input {
     margin: 0;
     width: 70%;
     height: 35px;
